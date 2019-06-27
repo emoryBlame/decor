@@ -1,5 +1,5 @@
 index.html===index.html
-Garden Design and Build===Сад Дизайн и Строительство
+Garden Design and Build===Портфолио
 Front Gardens===Палисадники
 Back Gardens===Задние сады
 Large Gardens===Большие сады
@@ -7,7 +7,7 @@ Medium Gardens===Средний сад
 Small Gardens===Маленькие Сады
 Roof Gardens===Сады на крыше
 Wrap Gardens===Wrap Gardens
-Garden Features===Особенности сада
+Garden Features===Дополнительные услуги
 Driveways===Подъездные
 Garden Lighting===Освещение сада
 Patios & Terraces===Патио и Террасы
@@ -22,7 +22,7 @@ Ornate Trellis===Изысканная шпалера
 Fire Features===Особенности огня
 Bespoke Benches===Сделанные на заказ скамейки
 Landscape Design===Ландшафтный дизайн
-Contact===контакт
+Contact===Контакт
 Select Page===Выберите страницу
 “Kate Eyre designed a stunning garden for us: beautifully laid out, thoughtfully planted, and easy to maintain”===«Кейт Эйр спроектировала для нас потрясающий сад: красиво спланированный, продуманно посаженный и простой в уходе»
 Garden Design in London===Дизайн сада в Лондоне
