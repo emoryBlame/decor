@@ -19,12 +19,12 @@ def get_translate(text):
 
 
 def main():
-	with open("index.goal.txt", 'r') as file:
+	with open("contact.txt", 'r') as file:
 		lines = file.readlines()
 		#print(lines)
 		for line in lines:
 			trans_line = get_translate(line)
-			with open("translated.txt", "a") as f:
+			with open("contact_translated.txt", "a") as f:
 				f.write(line.replace("\n", "")+"==="+trans_line+"\n")
 
 if __name__=="__main__":

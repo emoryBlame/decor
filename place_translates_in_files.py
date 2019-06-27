@@ -92,8 +92,8 @@ def place_same_text_in_all_site():
 
 if __name__=="__main__":
 	#print(get_indexes())
-	#one_file_place("translated.txt", "index.html")
-	place_same_text_in_all_site()
+	one_file_place("contact_translated.txt", "contact/index.html")
+	#place_same_text_in_all_site()
 
 # def index_translate():
 # 	with open

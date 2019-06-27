@@ -60,7 +60,7 @@ def getcontext(file, file_to_save):
 		print(exc)
 	else:
 
-		with open(file_to_save, 'a') as f:
+		with open(file_to_save, 'w') as f:
 			f.write(file + '\n')
 			for item in second_sentence:
 				if item != '1750 Steeles Ave West, Unit 204, Concord, ON L4K 2L7':
@@ -89,16 +89,17 @@ def main():
 	# index = ['index.html']
 	# for i in index:
 	# 	getcontext(i, "index.txt")
-	with open("index.txt", "r") as file:
-		lines = file.readlines()
-		text = ""
-		for line in lines:
-			if line.startswith('\n') or line.startswith(' \n') or line.startswith(','):
-				pass
-			else:
-				text += line
-		with open("index.goal.txt", "w") as f:
-			f.write(text)
+	getcontext('contact/index.html', "contact.txt")
+	# with open("index.txt", "r") as file:
+	# 	lines = file.readlines()
+	# 	text = ""
+	# 	for line in lines:
+	# 		if line.startswith('\n') or line.startswith(' \n') or line.startswith(','):
+	# 			pass
+	# 		else:
+	# 			text += line
+	# 	with open("index.goal.txt", "w") as f:
+	# 		f.write(text)
 
 
 if __name__ == '__main__':
